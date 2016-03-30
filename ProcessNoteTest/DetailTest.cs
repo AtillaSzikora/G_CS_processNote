@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ProcessNoteTest
 {
     [TestClass]
-    public class UnitTest1
+    public class DetailTest
     {
         [TestMethod]
         public void TestMethod1()
