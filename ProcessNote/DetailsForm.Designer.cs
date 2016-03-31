@@ -135,6 +135,7 @@
             this.threadsButton.TabIndex = 10;
             this.threadsButton.Text = "Show Threads";
             this.threadsButton.UseVisualStyleBackColor = true;
+            this.threadsButton.Click += new System.EventHandler(this.threadsButton_Click);
             // 
             // threadsButtonLabel
             // 

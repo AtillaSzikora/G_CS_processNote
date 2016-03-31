@@ -14,7 +14,7 @@ namespace ProcessNote
         public long MemoryUsage { get; }
         public double RunningTime { get; }
         public DateTime StartTime { get; }
-        ProcessThreadCollection Threads { get; }
+        public ProcessThreadCollection Threads { get; }
 
         public Details(System.Diagnostics.Process aProcess)
         {
