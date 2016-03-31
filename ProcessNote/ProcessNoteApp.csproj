@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,7 +48,13 @@
     <Compile Include="AlwaysOnTop.cs" />
     <Compile Include="Close.cs" />
     <Compile Include="Comment.cs" />
-    <Compile Include="Detail.cs" />
+    <Compile Include="Details.cs" />
+    <Compile Include="DetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsForm.Designer.cs">
+      <DependentUpon>DetailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Process.cs" />
     <Compile Include="ProcessNoteApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DetailsForm.resx">
+      <DependentUpon>DetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
