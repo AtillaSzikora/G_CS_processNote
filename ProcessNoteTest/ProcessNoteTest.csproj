@@ -55,7 +55,7 @@
     <Compile Include="CloseTest.cs" />
     <Compile Include="AlwaysOnTopTest.cs" />
     <Compile Include="RefreshTest.cs" />
-    <Compile Include="ThreadTest.cs" />
+    <Compile Include="ThreadsTest.cs" />
     <Compile Include="ProcessTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

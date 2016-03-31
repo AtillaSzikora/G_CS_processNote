@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProcessNote
 {
-    class Thread
+    class Threads
     {
     }
 }

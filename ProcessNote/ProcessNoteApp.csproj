@@ -59,7 +59,13 @@
     <Compile Include="ProcessNoteApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refresh.cs" />
-    <Compile Include="Thread.cs" />
+    <Compile Include="Threads.cs" />
+    <Compile Include="ThreadsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThreadsForm.Designer.cs">
+      <DependentUpon>ThreadsForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

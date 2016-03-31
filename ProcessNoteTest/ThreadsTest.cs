@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ProcessNoteTest
 {
     [TestClass]
-    public class ThreadTest
+    public class ThreadsTest
     {
         [TestMethod]
         public void TestMethod1()
