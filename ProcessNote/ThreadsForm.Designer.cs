@@ -28,11 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.threadsBox = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // threadsBox
+            // 
+            this.threadsBox.FormattingEnabled = true;
+            this.threadsBox.Location = new System.Drawing.Point(12, 12);
+            this.threadsBox.Name = "threadsBox";
+            this.threadsBox.Size = new System.Drawing.Size(260, 238);
+            this.threadsBox.TabIndex = 0;
+            // 
+            // ThreadsForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.threadsBox);
+            this.Name = "ThreadsForm";
             this.Text = "ThreadsForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox threadsBox;
     }
 }
